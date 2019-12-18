@@ -74,5 +74,7 @@ public class LeeCode {
     public static void main(String[] args) {
         LeeCode l = new LeeCode();
         System.out.println(l.findRepeatedDnaSequencess("AAAAAAAAAAA"));
+        System.out.println(l.wordPattern("aaabbb","ab ab ab cc cc cc"));
+        System.out.println(l.wordPattern("aavac","ab ab ab cc cc cc"));
     }
 }
